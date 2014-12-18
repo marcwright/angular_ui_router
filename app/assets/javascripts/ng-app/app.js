@@ -57,7 +57,7 @@ angular
 				.state('resume.six', {
 					url: '/six',
 					templateUrl: 'resume/six.html'
-				});;
+				});
 
 		// default fallback route
 		$urlRouterProvider.otherwise('/');

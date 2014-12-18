@@ -5,11 +5,11 @@ class ApplicationController < ActionController::Base
 
   def index
     render layout: layout_name
-end
+  end
 
 private
 
-def layout_name
+  def layout_name
     if params[:layout] == 0
         false
     else
