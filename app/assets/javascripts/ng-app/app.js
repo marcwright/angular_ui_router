@@ -39,12 +39,13 @@ angular
 					templateUrl: 'dashboard/three.html'
 				})
 				.state('resume', {
+				abstract: true,
 				url: '/resume',
 				templateUrl: 'resume/layout.html'
 			})
 				// the default route when someone hits dashboard
 				.state('resume.four', {
-					url: '/four',
+					url: '',
 					templateUrl: 'resume/four.html'
 				})
 				// this is /dashboard/two
