@@ -65,15 +65,15 @@ angular
 			})
 				// the default route when someone hits dashboard
 				// this is /dashboard/two
-				.state('projects.two', {
-					url: '/two',
-					templateUrl: 'projects/two.html'
-				})
-				// this is /dashboard/three
 				.state('projects.halfgap', {
 					url: '',
 					templateUrl: 'projects/halfgap.html'
+				})
+				.state('projects.ozymandias', {
+					url: '/ozymandias',
+					templateUrl: 'projects/ozymandias.html'
 				});
+				// this is /dashboard/three
 
 		// default fallback route
 		$urlRouterProvider.otherwise('/');
