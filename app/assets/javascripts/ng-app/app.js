@@ -57,6 +57,22 @@ angular
 				.state('resume.six', {
 					url: '/six',
 					templateUrl: 'resume/six.html'
+				})
+				.state('projects', {
+				abstract: true,
+				url: '/projects',
+				templateUrl: 'projects/layout.html'
+			})
+				// the default route when someone hits dashboard
+				// this is /dashboard/two
+				.state('projects.two', {
+					url: '/two',
+					templateUrl: 'projects/two.html'
+				})
+				// this is /dashboard/three
+				.state('projects.halfgap', {
+					url: '',
+					templateUrl: 'projects/halfgap.html'
 				});
 
 		// default fallback route
