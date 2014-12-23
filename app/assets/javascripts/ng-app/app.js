@@ -72,6 +72,10 @@ angular
 				.state('projects.ozymandias', {
 					url: '/ozymandias',
 					templateUrl: 'projects/ozymandias.html'
+				})
+				.state('projects.keyfree', {
+					url: '/keyfree',
+					templateUrl: 'projects/keyfree.html'
 				});
 				// this is /dashboard/three
 
