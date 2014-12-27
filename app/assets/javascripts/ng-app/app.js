@@ -3,7 +3,8 @@ angular
 	.module('myApp', [
 		'ngAnimate',
 		'ui.router',
-		'templates'
+		'templates',
+		'ui.bootstrap'
 	])
 	.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
