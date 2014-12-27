@@ -81,6 +81,15 @@ angular
 				.state('projects.instagram', {
 					url: '/instagram',
 					templateUrl: 'projects/instagram.html'
+				})
+				.state('contact', {
+				abstract: true,
+				url: '/contact',
+				templateUrl: 'contact/layout.html'
+			})
+				.state('contact.contact', {
+					url: '',
+					templateUrl: 'contact/contact.html'
 				});
 				// this is /dashboard/three
 
