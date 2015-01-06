@@ -6,7 +6,10 @@ angular
 		'templates',
 		'ui.bootstrap'
 	])
-	.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+	// .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+
+	.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', 
+      function ($stateProvider, $urlRouterProvider, $locationProvider ) {
 
 		/**
 		 * Route and States
@@ -100,4 +103,4 @@ angular
 		// enable HTML5 mode for SEO
 		$locationProvider.html5Mode(true);
 
-	});
+	}]);
