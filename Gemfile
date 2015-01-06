@@ -32,6 +32,7 @@ gem 'angular-rails-templates'
 # gem 'rails_12factor', group: :production
 
 gem "foreman"
+
 group :production, :staging do
   gem "rails_12factor"
   gem "rails_stdout_logging"
