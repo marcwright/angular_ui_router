@@ -29,38 +29,14 @@ angular
 					url: '',
 					templateUrl: 'resume/cv.html'
 				})
-				 .state('projects', {
+				 .state('work', {
 					abstract: true,
-					url: '/projects',
-					templateUrl: 'projects/layout.html'
+					url: '/work',
+					templateUrl: 'work/layout.html'
 			})
-				.state('projects.halfgap', {
+				.state('work.work', {
 					url: '',
-					templateUrl: 'projects/halfgap.html'
-				})
-				.state('projects.ozymandias', {
-					url: '/ozymandias',
-					templateUrl: 'projects/ozymandias.html'
-				})
-				.state('projects.keyfree', {
-					url: '/keyfree',
-					templateUrl: 'projects/keyfree.html'
-				})
-				.state('projects.instagram', {
-					url: '/instagram',
-					templateUrl: 'projects/instagram.html'
-				})
-				.state('projects.marketing', {
-					url: '/marketing',
-					templateUrl: 'projects/marketing.html'
-				})
-				.state('projects.zen', {
-					url: '/zen',
-					templateUrl: 'projects/zen.html'
-				})
-				.state('projects.groovv', {
-					url: '/groovv',
-					templateUrl: 'projects/groovv.html'
+					templateUrl: 'work/work.html'
 				})
 				.state('contact', {
 				abstract: true,
