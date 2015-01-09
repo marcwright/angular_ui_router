@@ -20,44 +20,19 @@ angular
 				templateUrl: 'home.html',
 				controller: 'HomeCtrl'
 			})
-			.state('dashboard', {
-				abstract: true,
-				url: '/dashboard',
-				templateUrl: 'dashboard/layout.html'
+			  .state('resume', {
+					abstract: true,
+					url: '/resume',
+					templateUrl: 'resume/layout.html'
 			})
-				.state('dashboard.one', {
+				.state('resume.cv', {
 					url: '',
-					templateUrl: 'dashboard/one.html'
+					templateUrl: 'resume/cv.html'
 				})
-				.state('dashboard.two', {
-					url: '/two',
-					templateUrl: 'dashboard/two.html'
-				})
-				.state('dashboard.three', {
-					url: '/three',
-					templateUrl: 'dashboard/three.html'
-				})
-				.state('resume', {
-				abstract: true,
-				url: '/resume',
-				templateUrl: 'resume/layout.html'
-			})
-				.state('resume.four', {
-					url: '',
-					templateUrl: 'resume/four.html'
-				})
-				.state('resume.five', {
-					url: '/five',
-					templateUrl: 'resume/five.html'
-				})
-				.state('resume.six', {
-					url: '/six',
-					templateUrl: 'resume/six.html'
-				})
-				.state('projects', {
-				abstract: true,
-				url: '/projects',
-				templateUrl: 'projects/layout.html'
+				 .state('projects', {
+					abstract: true,
+					url: '/projects',
+					templateUrl: 'projects/layout.html'
 			})
 				.state('projects.halfgap', {
 					url: '',
