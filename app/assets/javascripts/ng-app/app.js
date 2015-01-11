@@ -20,7 +20,7 @@ angular
 				templateUrl: 'home.html',
 				controller: 'HomeCtrl'
 			})
-			  .state('resume', {
+			.state('resume', {
 					abstract: true,
 					url: '/resume',
 					templateUrl: 'resume/layout.html'
@@ -46,6 +46,10 @@ angular
 				.state('contact.contact', {
 					url: '',
 					templateUrl: 'contact/contact.html'
+				})
+				.state('contact.cv', {
+					url: '/cv',
+					templateUrl: 'contact/cv.html'
 				});
 
 		// default fallback route
