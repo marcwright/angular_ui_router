@@ -8,12 +8,12 @@
 	}
 
 	&.ng-enter{
-		@include transition(.2s ease-out all .2s);
+		@include transition(.9s ease-out all);
 	}
 
-	&.ng-leave{
-		@include transition(.2s ease-out all);
-	}
+	/*&.ng-leave{
+		@include transition(.7s ease-out all);
+	}*/
 
 	&.ng-enter,
 	&.ng-leave.ng-leave-active{
