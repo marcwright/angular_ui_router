@@ -4,3 +4,16 @@
 .projects-ui-view{
   @extend .main-view-container;
 }
+
+.overlay {
+background-color: rgba(0,0,0,.4);
+font-family: Ubuntu;
+position: absolute;
+top: 0;
+z-index: 10;
+height: 100%;
+display: table;
+opacity: 0;
+transition: opacity .2s ease-in-out;
+width: 391px;
+}
